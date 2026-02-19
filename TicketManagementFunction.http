@@ -1,0 +1,34 @@
+### Get all tickets
+GET http://localhost:7072/api/ticket
+
+### Get ticket by ID
+GET http://localhost:7072/api/ticket/1
+
+### Create ticket
+POST http://localhost:7072/api/ticket
+Content-Type: application/json
+
+{
+  "ticketId": "TICKET-001",
+  "email": "user@example.com",
+  "type": "Bug",
+  "description": "Issue with login functionality",
+  "status": "Open",
+  "resolution": ""
+}
+
+### Update ticket
+PUT http://localhost:7072/api/ticket/1
+Content-Type: application/json
+
+{
+  "ticketId": "TICKET-001",
+  "email": "user@example.com",
+  "type": "Bug",
+  "description": "Issue with login functionality",
+  "status": "Resolved",
+  "resolution": "Fixed in latest release"
+}
+
+### Delete ticket
+DELETE http://localhost:7072/api/ticket/1

@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "TicketApiBaseUrl": "http://localhost:5000",
+    "ApiUsername": "admin",
+    "ApiPassword": "admin123",
+    "AZURE_FUNCTIONS_ENVIRONMENT": "Development"
+  }
+}
